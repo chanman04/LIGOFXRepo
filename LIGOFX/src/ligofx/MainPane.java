@@ -17,11 +17,11 @@ import javafx.stage.Stage;
  *
  * @author Mike
  */
-public class LIGOMain extends Application {
+public class MainPane extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("main_pane.fxml"));
         
         Rectangle2D visualBounds = Screen.getPrimary().getVisualBounds();
 

@@ -8,12 +8,12 @@
   </information>
   <resources>
     <j2se version="1.6+" java-vm-args="-Djava.library.path=/Users/Mike/Documents/workspace/LIGOFX "  href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="LIGOFX.jar" size="2629" download="eager" />
+    <jar href="LIGOFX.jar" size="5435" download="eager" />
     <jar href="lib/LeapJava.jar" size="85028" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="LIGOFX" >
     <param name="requiredFXVersion" value="8.0+"/>
   </applet-desc>
-  <jfx:javafx-desc  width="800" height="600" main-class="ligofx.LIGOMain"  name="LIGOFX" />
+  <jfx:javafx-desc  width="800" height="600" main-class="ligofx.MainPane"  name="LIGOFX" />
   <update check="always"/>
 </jnlp>
